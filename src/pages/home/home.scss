@@ -1,3 +1,26 @@
-page-home {
+.ios, .md {
+    page-home {
+        ion-card{
+            // border-radius: 15px;
+            background: #000000;// rgb(44,167,236);
+            background: linear-gradient(90deg, rgba(44,167,236,1) 0%, rgba(44,167,236,1) 61%, rgba(44,167,236,0.8) 100%);
+            .card-main-header{
+                font-size: 2.5rem;
+                font-weight: 900;
+                border: 1px solid rgba(255,255,255,0.2);
+            }
+            .card-title{
+                font-size: 1.8rem;
+            }
+        }
 
+        ion-card.second{
+            background: linear-gradient(90deg, rgba(218,161,247,1) 0%, rgba(218,161,247,1) 61%, rgba(218,161,247,0.8) 100%);            
+        }
+        ion-card.third{
+            background: linear-gradient(90deg, rgba(161,160,247,1) 0%, rgba(161,160,247,1) 61%, rgba(161,160,247,0.8) 100%);        }
+        ion-card.fourth{
+            background: linear-gradient(90deg, rgba(253,177,136,1) 0%, rgba(253,177,136,1) 61%, rgba(253,177,136,0.8) 100%);        }
+    }
+    
 }

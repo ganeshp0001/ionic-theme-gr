@@ -21,7 +21,11 @@ $app-direction: ltr;
 // the Sass variables found in Ionic's source scss files.
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
+$toolbar-background: #ffffff;
 
+// Custom Variables
+$deep-shadow: -5px 12px 12px 0 rgba(0, 0, 0, .08), -5px 13px 11px -2px rgba(0, 0, 0, .02), -5px 11px 15px 0 rgba(0, 0, 0, .12);
+$blue-gradient: linear-gradient(70deg, rgba(159,175,249,1) 0%, rgba(209,147,250,1) 100%);
 
 
 
@@ -34,8 +38,8 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
-  secondary:  #32db64,
+  primary:    #8cd2f9,
+  secondary:  #d193fa,
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222
@@ -45,6 +49,7 @@ $colors: (
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
+$card-ios-box-shadow: $deep-shadow;
 
 
 
@@ -52,7 +57,7 @@ $colors: (
 // App Material Design Variables
 // --------------------------------------------------
 // Material Design only Sass variables can go here
-
+$card-md-box-shadow: $deep-shadow;
 
 
 

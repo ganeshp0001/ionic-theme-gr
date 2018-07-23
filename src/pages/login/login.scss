@@ -1,0 +1,76 @@
+.ios,
+.md {
+  page-login {
+    .logo-container {
+      ion-icon {
+        font-size: 5rem;
+        color: color($colors, secondary);
+      }
+    }
+    .section-header {
+      color: color($colors, secondary);
+      text-align: center;
+      font-weight: lighter;
+      font-size: 2.5rem;
+    }
+    ion-card {
+      border-radius: 15px;
+      background: $blue-gradient;
+      ion-list {
+        border-bottom: none;
+      }
+      ion-item {
+        font-weight: 100;
+        background: transparent;
+        border-color: transparent !important;
+        color: rgba(255, 255, 255, 0.92);
+        ion-icon{
+            font-size: 2.5rem;
+            color: rgba(255, 255, 255, 0.72);
+        }
+      }
+      ion-input {
+        background: rgba(255, 255, 255, 0.2);
+      }
+      button {
+        background: #ffffff;
+        color: map-get($colors, secondary);
+        box-shadow: $deep-shadow;
+        margin-bottom: 30px;
+        float: right;
+        text-transform: capitalize;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+    }
+    .row-social {
+      margin-top: -48px;
+      margin-bottom: 20px;
+      button {
+        border-radius: 100px;
+        width: 50px;
+        height: 50px;
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        font-size: 2rem;
+      }
+      button.google {
+        background: #ef7070;
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+      }
+      button.twitter {
+        background: #7dd5f9;
+      }
+      button.github {
+        background: #393939;
+      }
+    }
+    button.with-shadow {
+      box-shadow: $deep-shadow;
+      background: $blue-gradient;
+    }
+  }
+}
